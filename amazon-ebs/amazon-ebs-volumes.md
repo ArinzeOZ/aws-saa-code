@@ -14,13 +14,13 @@ sudo lsblk -e7
 
 ## Create a filesystem and mount the volume
 1. Create a filesystem on the EBS volume
-sudo mkfs -t ext4 /dev/xvdf
+sudo mkfs -t ext4 /dev/sdb
 2. Create a mount point for the EBS volume
 sudo mkdir /data
 3. Mount the EBS volume to the mount point
-sudo mount /dev/xvdf /data
+sudo mount /dev/sdb /data
 4. Make the volume mount persistent
-Run: 'sudo nano /etc/fstab' then add '/dev/xvdf /data ext4 defaults,nofail 0 2' and save the file
+Run: 'sudo nano /etc/fstab' then add '/dev/sdb /data ext4 defaults,nofail 0 2' and save the file
 
 ## Add some data to the volume
 
