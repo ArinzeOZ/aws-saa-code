@@ -80,7 +80,7 @@ Resources:
   VPCStack:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://my-cloudformation-s3-bucket-3121s2.s3.amazonaws.com/vpc.yaml
+      TemplateURL: https://my-cloudformation-s3-bucket-31219777778568.s3.amazonaws.com/vpc.yaml
 
   Subnet1Stack:
     Type: AWS::CloudFormation::Stack
